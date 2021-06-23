@@ -1,4 +1,5 @@
 body {
+  color: #DFEEEA;
   background-color: #262626;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -47,16 +48,12 @@ body {
   width: 4rem;
 }
 
-.skill-name {
-  color: #EEEEEE;
-}
 
 .project-section {
   border-radius: 12px;
   width: 80%;
   margin: auto;
   background-color: #1E1E1E;
-  color: #DFEEEA;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -156,6 +153,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   width: 30%;
   height: 30%;
+  margin: auto;
 }
 
 .footer__col2 {
@@ -163,6 +161,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   width: 20%;
   height: 20%;
+  margin: auto;
 
 }
 
@@ -171,6 +170,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   width: 20%;
   height: 20%;
+  margin: auto;
 
 }
 
@@ -179,7 +179,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   width: 20%;
   height: 20%;
-
+  margin: auto;
 }
 
 ul {
@@ -223,6 +223,10 @@ td {
   padding: 20px;
   letter-spacing: 1px;
   text-align: center;
+}
+
+p {
+  line-height: 2;
 }
 
 a {
