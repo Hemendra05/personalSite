@@ -7,17 +7,11 @@ body {
 
 
 
-#Skills {
+.Skills {
   border-radius: 12px;
   background-color: #1E1E1E;
   width: 80%;
   margin: auto;
-}
-
-.container {
-  border-radius: 12px;
-  padding-top: 100px;
-  height: 100vh;
 }
 
 /* Navigation Bar */
@@ -225,7 +219,7 @@ ul {
 h1 {
   color: #EDEDD0;
   font-size: 5.625rem;
-  margin: 27vh auto 0 auto;
+  margin: 40vh auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-weight: 900;
 }
