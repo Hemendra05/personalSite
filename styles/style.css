@@ -2,19 +2,13 @@ body {
   color: #DFEEEA;
   background-color: #262626;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather Sans', serif;
 }
 
-
-
-.Skills {
-  border-radius: 12px;
-  background-color: #1E1E1E;
-  width: 80%;
-  margin: auto;
-}
 
 /* Navigation Bar */
+
+
 
 .navbar {
   padding: 0 3% 0 0;
@@ -38,7 +32,11 @@ body {
   color: white;
 }
 
+
+
 /* About section */
+
+
 
 .heading {
   font-weight: normal;
@@ -56,15 +54,19 @@ body {
   left: 25%;
 }
 
+
+
 /* Skills Section */
 
-.skill-row {
-  display: inline-block;
-  margin: 50px;
+
+
+.Skills {
+  border-radius: 12px;
+  background-color: #1E1E1E;
+  margin: auto;
 }
 
 .skill-icon {
-  float: left;
   margin: 20px;
   height: 4rem;
   width: 4rem;
@@ -232,13 +234,13 @@ h2 {
 }
 
 h3 {
-  color: #EEEEEE;
+  color: #F7DAD9;
   font-family: 'Roboto Mono', monospace;
 }
 
 hr {
   background-color: #F8F5F1;
-  margin: 0 10rem;
+  margin: 0 11.5rem;
   margin-top: 100px;
   margin-bottom: 100px;
 }
