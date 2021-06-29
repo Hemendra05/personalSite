@@ -21,11 +21,11 @@ body {
 }
 
 .nav-item{
-  padding: 0 18px;
+  padding: 0 15px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: Montserrat;
   font-weight: normal;
   font-style: normal;
@@ -68,32 +68,33 @@ body {
 
 .skill-icon {
   margin: 20px;
-  height: 4rem;
-  width: 4rem;
+  height: 7rem;
+  width: 7rem;
 }
 
+/* Project Section */
 
 .project-section {
   border-radius: 12px;
-  width: 80%;
   margin: auto;
   background-color: #1E1E1E;
   font-family: 'Roboto Mono', monospace;
+  text-align: center;
 }
 
-.project-kube {
-  float: left;
-  margin: 50px;
+.project-img {
   height: 15rem;
   width: 30rem;
+  padding: 0;
+  margin: auto 8%;
 }
 
-.project-dia {
-  float: right;
-  margin: 50px;
+/* .project-dia {
   height: 15rem;
   width: 30rem;
-}
+  padding: 0;
+  margin: 0 8%;
+} */
 
 .experience {
   border-radius: 12px;
@@ -104,7 +105,7 @@ body {
 }
 
 .org-position {
-  margin-bottom: 5px;
+  margin: 20px 0 0 0;
 }
 
 .org {
@@ -260,10 +261,11 @@ td {
 
 p {
   line-height: 2;
+  font-size: 1.2rem;
 }
 
 a {
-  color: #4592AF;
+  color: #FFF5DA;
   text-decoration: none;
 }
 
