@@ -82,6 +82,9 @@ a:hover, a:focus, a:active  {
   .org {
     font-size: 1.5rem;
   }
+  .nav-link {
+    font-size: 1.7rem;
+  }
 
 }
 
@@ -219,4 +222,14 @@ a:hover, a:focus, a:active  {
   font-size: 280%;
   color: #EEEEEE;
   margin-top: 0;
+}
+
+/* Bottom Container */
+
+.bottom-container {
+  background-color: #1E1E1E;
+}
+
+.bottom-content {
+  padding-top: 2%
 }
