@@ -37,19 +37,6 @@ hr {
   margin-bottom: 100px;
 }
 
-table {
-  table-layout: fixed;
-  width: 90%;
-  border-collapse: collapse;
-  margin: auto;
-}
-
-td {
-  padding: 20px;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
 p {
   line-height: 2;
   font-size: 120%;
@@ -64,13 +51,38 @@ a:hover, a:focus, a:active  {
   color: #464F41;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 7.625rem;
   }
-  body {
-    background-color: lightblue;
+  h2 {
+    font-size: 4.5rem;
   }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    line-height: 2.3;
+    font-size: 160%;
+  }
+  .items {
+    line-height: 2.3;
+    font-size: 160%;
+  }
+  .heading {
+    font-weight: normal;
+    font-size: 3rem;
+  }
+  .project-img {
+    height: 15rem;
+    width: 30rem;
+    padding: 0 10%;
+    margin: auto 8%;
+  }
+  .org {
+    font-size: 1.5rem;
+  }
+
 }
 
 /* Navigation Bar */
@@ -171,7 +183,7 @@ a:hover, a:focus, a:active  {
 }
 
 .org {
-  font-size: 100%;
+  font-size: 1rem%;
   color: #868e96;
   margin: 0;
 }
